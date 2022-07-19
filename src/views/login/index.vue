@@ -1,5 +1,5 @@
 <template>
- <div class="home">
+  <div class="home">
     <div class="zuo">
       <span>欢迎光临</span>
     </div>
@@ -23,7 +23,11 @@ export default {
     return {}
   },
   mounted() {},
-  methods: {},
+  methods: {
+    den() {
+      this.$router.push('../../layout')
+    }
+  },
   components: {}
 }
 </script>
@@ -79,4 +83,5 @@ export default {
       }
     }
   }
-}</style>
+}
+</style>
